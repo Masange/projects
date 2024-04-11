@@ -166,7 +166,7 @@ def inquiry():
     # This function asks the user if they want to request whether by US zip code or US city.
     zip_or_city = 0
     while zip_or_city != '3':
-        api_key = 'cc47844e108d95ed80bf529ead9b09e2'
+        api_key = 'Enter API key'
         zip_or_city = input('Would you like to lookup the weather by Zip Code or US City? Enter 1 for Zip Code,2 for City, or 3 to Quit: ')
         if zip_or_city == '3':
             print(" "*3, "You entered 3 to Quit. Just to confirm: ")
